@@ -53,4 +53,5 @@ class LossyCounting:
         return math.ceil(self.bucketCounter * self.error)
 
     def getFrequentItems(self):
-        return {k: v for k, v in self.frequencies.items() if v >= (self.minSupport - self.error)*self.totalProcessElements }
+        return {k: v for k, v in self.frequencies.items()
+                if v >= (self.minSupport - self.error) * self.totalProcessElements}

@@ -14,8 +14,3 @@ class ExactCounter:
 
     def getFrequentItems(self):
         return {k: v for k, v in self.frequencies.items() if v >= self.minSupport * self.totalProcessElements}
-
-
-
-
-
