@@ -12,8 +12,14 @@ General use of the implementation:
 * get results by calling the method LossyCounting().getFrequentItems()
  
  
- 
+### Run example
+* to run the included demos
+   * extract the zip file
+   * enter the lossy-counting folder
+   * to run the example you have to have install python3 on your machine
+   * then simply run ```python3 main.py```
+   
 ### Included demos:
-- exponential demo - with samples drawn from the exponential distribution 
-- warehouse demo -  with samples from anonymized retail market basket data from an anonymous Belgian retail store
-- Romeo and Juliet demo - with word frequencies from the Romeo and Juliet drama
+* exponential demo - with samples drawn from the exponential distribution 
+* warehouse demo -  with samples from anonymized retail market basket data from an anonymous Belgian retail store
+* Romeo and Juliet demo - with word frequencies from the Romeo and Juliet drama
